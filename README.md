@@ -1,7 +1,7 @@
-  ```javascript
-  /*
-  Hi there! I'm Diego 🐱👋
+  ## Hi there! I'm Diego 🐱👋
   
+ ```javascript
+  /*
   I'm a highly motivated software developer and student, focused on solving problems and learning new skills.
   My goal is to become a skilled and efficient programmer, a leader in my field, capable of working in a team and communicating complex ideas.
   I'm passionate about working on challenging projects that allow me to grow and have a significant impact on people's lives.
@@ -39,3 +39,8 @@ console.log('\nThanks for stopping by! 😄');
 
   
   ```
+## Github Stats 📊
+
+[![drewbydiego's GitHub stats](https://github-readme-stats.vercel.app/api?username=drewbydiego)](https://github.com/drewbydiego/github-readme-stats)
+
+Feel free to reach out to me if you have any questions or would like to collaborate on interesting projects!
