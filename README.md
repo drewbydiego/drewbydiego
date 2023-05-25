@@ -1,23 +1,41 @@
-# Hi there, I'm Diego! 👋
+  ```javascript
+  /*
+  Hi there! I'm Diego 🐱👋
+  
+  I'm a highly motivated software developer and student, focused on solving problems and learning new skills.
+  My goal is to become a skilled and efficient programmer, a leader in my field, capable of working in a team and communicating complex ideas.
+  I'm passionate about working on challenging projects that allow me to grow and have a significant impact on people's lives.
+  
+  Here are some things about me:
+*/
 
-I am a highly motivated software developer and student, focused on solving problems and learning new skills. I am passionate about becoming a skilled and efficient programmer and a leader in my field. I enjoy working in teams and effectively communicating complex ideas. I am seeking challenging projects that allow me to grow and make a significant impact on people's lives.
+const diego = {
+  name: 'Diego',
+  role: 'Jr. Frontend-web developer | Full stack developer',
+  education: 'Computer Science & Engineering Student',
+  currentFocus: 'Building Expertise at Core Code io',
+  skills: ['JavaScript', 'CSS', 'HTML', 'React.js'],
+};
 
-## Skills
-- JavaScript
-- CSS
-- HTML
-- React.js
-## [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=drewbydiego&hide_progress=true)](https://github.com/drewbydiego/github-readme-stats)
+// Let's display the information about Diego
 
-## Education
-- Currently pursuing a degree in Computer Science & Engineering at Mariano Gálvez university of Guatemala
+console.log(`### Hi there! I'm ${diego.name} 👋\n`);
 
-## Contact Me
-- LinkedIn: https://www.linkedin.com/in/hi-iamdiegoflores/
-- Email: diegoflo64411@gmail.com
+console.log('👨‍💻 About Me:');
+console.log(`  - Role: ${diego.role}`);
+console.log(`  - Education: ${diego.education}`);
+console.log(`  - Current Focus: ${diego.currentFocus}`);
+console.log('\n');
 
-[![drewbydiego's GitHub stats](https://github-readme-stats.vercel.app/api?username=drewbydiego)](https://github.com/drewbydiego/github-readme-stats)
+console.log('🚀 Skills:');
+diego.skills.forEach((skill) => console.log(`  - ${skill}`));
 
+console.log('\n');
+console.log('✉️ Get in touch:');
+console.log('  - Email: diegoflo64411@gmail.com');
+console.log('  - LinkedIn: linkedin.com/in/hi-iamdiegoflores/ ');
 
+console.log('\nThanks for stopping by! 😄');
 
-Feel free to reach out to me if you have any questions or would like to collaborate on interesting projects!
+  
+  ```
